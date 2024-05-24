@@ -40,5 +40,18 @@ React Component Types:
     - Cannot handle hooks or user interaction 
 
 Routing:
+URL paths are defined by the files and folders in src (not every file = route).
+Important to closely follow the Next JS conventions for creating routes:
+- All routes must be placed inside the app folder.
+- All folders correspond to a path segment in the URL.
+- All route files must be named page.js or page.tsx.
+- Create nested routes by creating folder + page inside a route folder.
+- Create dynamic routes (/:id) using [id] as folder name.
+- All pages have route params as intrinsic props - Component({params}) {params.id}.
+- Can catch-all URL segments using folder name [...slug] - Component({params}) {params.slug[0]} 
+- Adv. catch-all that includes parent folder when routing: [[...slug]]
+- 404 Not Found page is created automatically by Next JS.
+page.tsx in app is the home page (localhost:3000).
+page.tsx in app/about is the about page (localhost:3000/about).
 
 
