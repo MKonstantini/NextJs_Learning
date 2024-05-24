@@ -1,0 +1,23 @@
+MY NOTES - LEARNING NEXT JS V.14
+_________________________________
+
+What is Next JS?
+An Open-source React framework that enables developers to build server-rendered and statically generated web applications.
+Allows for both Server Side Rendering and Static Site Generation.
+
+Built-In Features:
+- Routing: File based routing
+- API Routes: Create APIs 
+- Rendering: Supports SSR and CSI 
+- Data Fetching: simplified fetching using await in React Components
+- Styling: Supports CSS Modules (.module.css), Global Styles (styles/globals.css)
+- Optimization: Optimizes images, fonts, scripts
+
+What is Vercel?
+The Front-End Cloud Platform. Creators of Next JS. 
+Offers a suite of tools to build, deploy, and manage modern web applications.
+Hosts static sites and serverless functions, has a global CDN, is integrated with Git
+
+Command Line:
+Create Next JS Project: `npx create-next-app@latest`
+
