@@ -6,18 +6,30 @@ An Open-source React framework that enables developers to build server-rendered 
 Allows for both Server Side Rendering and Static Site Generation.
 
 Built-In Features:
-- Routing: File based routing
-- API Routes: Create APIs 
-- Rendering: Supports SSR and CSI 
-- Data Fetching: simplified fetching using await in React Components
-- Styling: Supports CSS Modules (.module.css), Global Styles (styles/globals.css)
-- Optimization: Optimizes images, fonts, scripts
+- Routing: File based routing.
+- API Routes: Create APIs.
+- Rendering: Supports SSR and CSI .
+- Data Fetching: simplified fetching using await in React Components.
+- Styling: Supports CSS Modules (.module.css), Global Styles (styles/globals.css).
+- Optimization: Optimizes images, fonts, scripts.
 
 What is Vercel?
 The Front-End Cloud Platform. Creators of Next JS. 
 Offers a suite of tools to build, deploy, and manage modern web applications.
-Hosts static sites and serverless functions, has a global CDN, is integrated with Git
+Hosts static sites and serverless functions, has a global CDN, is integrated with Git.
 
 Command Line:
 Create Next JS Project: `npx create-next-app@latest`
+_________________________________
 
+React Component Types:
+1. Client Component (RCC): 
+    - Created using 'use client' at the top of the component's file.
+    - Cannot read or fetch data.
+    - Can handle hooks and user interaction.
+2. Server Component (RSC): 
+    - The default type of components in Next JS. 
+    - Can read and fetch data from a DB. 
+    - Cannot handle hooks or user interaction 
+
+Routing:
