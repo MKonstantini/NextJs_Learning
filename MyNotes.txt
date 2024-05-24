@@ -1,5 +1,10 @@
-MY NOTES - LEARNING NEXT JS V.14
 _________________________________
+
+
+MY NOTES - LEARNING NEXT JS V.14
+
+_________________________________
+
 
 What is Next JS?
 An Open-source React framework that enables developers to build server-rendered and statically generated web applications.
@@ -20,7 +25,9 @@ Hosts static sites and serverless functions, has a global CDN, is integrated wit
 
 Command Line:
 Create Next JS Project: `npx create-next-app@latest`
+
 _________________________________
+
 
 React Component Types:
 1. Client Component (RCC): 
@@ -33,3 +40,5 @@ React Component Types:
     - Cannot handle hooks or user interaction 
 
 Routing:
+
+
