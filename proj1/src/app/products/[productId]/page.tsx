@@ -1,4 +1,6 @@
 import React from 'react'
+import { notFound } from 'next/navigation'
+import { Metadata } from 'next';
 
 interface ProductDetailsProps {
     params: {
@@ -6,7 +8,16 @@ interface ProductDetailsProps {
     };
 }
 
+export const generateMetadata = ({ params }: ProductDetailsProps): Metadata => {
+    return {
+        title: params.productId
+    }
+}
+
 function ProductDetails({ params }: ProductDetailsProps) {
+    if (parseInt(params.productId) > 10) {
+        return notFound()
+    }
     return (
         <>
             <h1>Product Details</h1>

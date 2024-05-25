@@ -2,7 +2,7 @@ import React from 'react'
 
 interface DocsParams {
     params: {
-        slug?: string[]
+        slug: string[]
     }
 }
 
